@@ -114,10 +114,7 @@ public class RegisterActivity extends AppCompatActivity {
                             new AlertDialog.Builder(RegisterActivity.this)
                                     .setIcon(R.mipmap.ic_logo)
                                     .setTitle("Please Re-Check Your Profile!")
-                                    .setMessage("Username : "+username+
-                                            "\nEmail : "+email+
-                                            "\nGender : "+gender+
-                                            "\nAge : "+age)
+                                    .setMessage("Halo, "+username+", email anda "+email+", dengan gender "+gender+", dan umur "+age+" tahun. Apakah data sudah benar dan ingin dilanjutkan?")
                             .setPositiveButton("Submit", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {

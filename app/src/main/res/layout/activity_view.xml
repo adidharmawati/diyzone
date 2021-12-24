@@ -35,7 +35,7 @@
                 android:drawablePadding="15dp"
                 android:ems="10"
                 android:text="Title"
-                android:textColor="@color/darkskin"
+                android:textColor="@color/maroon"
                 android:padding="20dp"
                 />
 
@@ -51,7 +51,7 @@
                 android:drawablePadding="15dp"
                 android:ems="10"
                 android:text="Tutorial"
-                android:textColor="@color/darkskin"
+                android:textColor="@color/maroon"
                 android:padding="20dp"
                 />
 
